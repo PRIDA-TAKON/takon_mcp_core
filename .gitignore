@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[oc]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.flakes/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (Secrets)
+.env
+.env.*
+!.env.example
+
+# uv
+uv.lock
+# (เก็บ uv.lock ไว้ถ้าต้องการให้คนอื่นใช้เวอร์ชันเดียวกับเรา แต่ถ้าไม่อยากเก็บให้เอาคอมเมนต์ออก)
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific
+temp_skills/
+.mcp.json
+*.extracted.csv
+*.doors.csv
+/รายงานประจำวัน/*.xlsx
+/แผนงานและความคืบหน้า/*.html
+!/ข้อมูลพื้นฐาน/REPORT_template_00.xlsx

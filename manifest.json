@@ -1,0 +1,16 @@
+{
+  "name": "takon-mcp-core",
+  "version": "0.1.0",
+  "description": "Construction & Engineering MCP Core tools",
+  "mcpServers": {
+    "takon-construction": {
+      "command": "uv",
+      "args": ["run", "takon-construction"],
+      "env": { "AI_STRATEGY": "local" }
+    },
+    "takon-cad": {
+      "command": "uv",
+      "args": ["run", "takon-cad"]
+    }
+  }
+}
